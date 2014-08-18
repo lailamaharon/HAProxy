@@ -52,6 +52,9 @@ Limitations
 
 HAProxy supports the simplest MySQL Replication setup, where you have a Master, and a readonly.
 
+
+
 Contributors & Authors
 -----------
-Thanks to @mauricoder
+@t4g
+@mauricoder
