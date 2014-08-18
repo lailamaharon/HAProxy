@@ -9,10 +9,10 @@ This project exposes the following **namespaces** for use in your custom use:
 
 
 
-## EXAMPLE
+### EXAMPLE
 -------
 
-For Vanilla FW
+#### For Vanilla FW
 
 
     	use CSI\Drivers\PDO
@@ -25,7 +25,7 @@ For Vanilla FW
     	// Framework::setup($proxy);
 
 
-For PDO override
+#### For PDO override
 
 
     	use CSI\Drivers\PDO\HAProxy as PDO;
@@ -62,24 +62,3 @@ Contributors & Authors
 @t4g
 @mauricoder
 
-
-### About KitCurl
-KitCurl is a cURL based proxy service for loading external resources server side (for the times you just forced to).
-Why KitCurl over cURL or fopen?
- * Written for server performance and stability.
- * Composer.phar driven
- * Modern PSR-0 coding pattern
- * Access to rationalised cURL configuration, like sane timeouts.
- * Memcached support with transparent failover for easier development installs.
- * Support for multiple memcached servers with failover and load-balancing.
- * Abstracted cache support for rapidly adding support for other caching systems.   
- 
-## Installation
-
-Installation is done in bash (for now)
-
-1) cd into your Wordpress mu-plugins or plugins directory
-
-    	soap@codex:wp-contents/plugins$
-	
-2) grab the code
