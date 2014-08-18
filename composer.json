@@ -1,0 +1,33 @@
+{
+    "name": "t4g/HAProxy",
+    "description": "Basic HAProxy Split R/W implementation for PDO",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Kyle Younge",
+            "email": "unkyle.za@gmail.com"
+        },
+        {
+            "name": "mauricoder ",
+            "email": "unknown@github.com"
+        }
+    ],
+    "version":"1.2.0",
+    "license": "MIT",
+
+    "require": {
+        "php": ">=5.3.0"
+    },
+
+    "config": {
+        "vendor-dir": "vendor",
+        "bin-dir": "bin"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "CSI\\Drivers\\PDO": "src/PDO"
+        }
+    }
+
+}
