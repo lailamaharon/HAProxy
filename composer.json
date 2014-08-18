@@ -1,5 +1,5 @@
 {
-    "name": "t4g/HAProxy",
+    "name": "t4g/ha-proxy",
     "description": "Basic HAProxy Split R/W implementation for PDO",
     "minimum-stability": "stable",
     "authors": [
